@@ -50,3 +50,6 @@ function showSlider(type) {
         carouselDom.classList.remove('next', 'prev');
     }, timeRunning);
 }
+
+
+
