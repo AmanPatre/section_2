@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     
+    
 }
 
 .top_content{
@@ -550,6 +551,7 @@ section {
     padding-bottom: 50px;
     position: relative;
    
+   
 }
 .carousel_container_header{
     height: 100px;
@@ -590,4 +592,28 @@ section {
 
 section{
     border-radius: 10px;
+}
+
+@media screen and (max-width:900px){
+    .cont{
+        gap: 0px;
+    }
+    .img{
+        margin-left: 15px;
+        height: 45vh;
+    }
+    .cont_title {
+        font-size: 30px;
+    }
+    .img img{
+        height: 30%;
+        margin-top: 200px;
+    }
+    .bottom_header h1{
+        font-size: 60px;
+    }
+    .bottom_header {
+        top:44px;
+    }
+
 }
