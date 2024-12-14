@@ -1,4 +1,4 @@
-const customTexts = [   ];
+const customTexts = ["Unveiling Firefox","History" , "Milestones", "Impacts", "Project By.." , "Team NU-GEN" ];
 let currentIndex = 0;
 
 const customTextElement = document.getElementById("custom-preloader-text");
