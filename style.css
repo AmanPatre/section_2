@@ -650,11 +650,15 @@ section{
     font-size: 15px;
 }
 .thumbnail .item {
-    width: 105px;
-    height: 135px;
+    width: 80px;
+    height: 100px;
+}
+.thumbnail .item .content .title2 {
+    font-size: 6px;
 }
 .thumbnail{
-    gap: 17px;
+    gap: 9px;
+    left: 32%;
 }
 .cont:nth-child(odd) {
     flex-direction: column;
@@ -665,9 +669,23 @@ section{
     height: 30%;
     margin-top: 40px;
     height: 90%;
+    display: none;
+
 }
 .img{
     margin-left: 48px;
+}
+.cont > div {
+ padding: 0;
+}
+.cont{
+    padding: 10px;
+}
+.cont_title{
+    text-align: center;
+}
+.carousel{
+    min-height: 61vh;
 }
     
 
