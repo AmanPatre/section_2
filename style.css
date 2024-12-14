@@ -259,7 +259,7 @@ header a {
     animation-delay: 1.8s;
 }
 
-.carousel .list .item:nth-child(1) img {
+.carousel.next  .list .item:nth-child(1) img {
     width: 150px;
     height: 220px;
     position: absolute;
@@ -762,7 +762,7 @@ section{
 }
 @media screen and (max-width : 426px){
     .carousel .list .item:nth-child(1) .des {
-        font-size: 5px;
+        font-size: 8px;
     }
 
 }
