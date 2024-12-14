@@ -742,3 +742,18 @@ section{
 }
 
 }
+
+@media screen and (max-width : 376px){
+    .carousel .list .item:nth-child(1) .title {
+       
+        position: relative;
+        bottom: 40px;
+    }
+    .carousel .list .item:nth-child(1) .des {
+      
+        position: relative;
+        bottom: 45px;
+        font-size: 11px;
+    }
+
+}
