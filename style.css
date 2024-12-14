@@ -697,7 +697,7 @@ section{
         margin-top: 245px;
     }
     .carousel{
-        min-height: 70vh;
+        min-height: 100vh;
     }
 
 }
@@ -754,6 +754,13 @@ section{
         position: relative;
         bottom: 45px;
         font-size: 11px;
+    }
+
+}
+
+@media screen and (max-width : 913px){
+    .cont_title {
+        font-size: 30px;
     }
 
 }
