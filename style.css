@@ -704,6 +704,71 @@ section{
 
 }
 
+@media screen and (max-width : 1025px) and (max-height:600px){
+    .carousel .list .item:nth-child(1) .title {
+        font-size: 20px;
+    }
+    .carousel .list .item:nth-child(1) .des {
+        
+        font-size: 15px;
+    }
+    .img{
+        height: 90vh;
+    }
+    .img img {
+       
+        margin-top: 165px;
+    }
+
+}
+
+
+@media screen and (max-width : 1025px) and (max-height:352px){
+    .thumbnail .item {
+        width: 60px;
+        height: 75px;
+    }
+    .thumbnail .item .content .title2 {
+        font-size: 5px;
+    }
+    .arrows button {
+        width: 25px;
+        height: 25px;
+    }
+    .thumbnail {
+        position: absolute;
+        bottom: 20px;
+        left: 73%;
+    }
+    .img {
+        height: 200vh;
+    }
+
+}
+@media screen and (max-width : 769px){
+    .thumbnail .item {
+        width: 80px;
+        height: 80px
+
+    }
+    .thumbnail .item .content .title2 {
+        font-size: 5px;
+    }
+    .thumbnail{
+        left: 57%;
+        gap: 10px;
+    }
+
+}
+@media screen and (max-width : 426px){
+    .carousel .list .item:nth-child(1) .des {
+        font-size: 5px;
+    }
+
+}
+
+
+
 @media screen and (max-width : 541px){
     .bottom_header h1 {
         letter-spacing: 18px;
@@ -763,6 +828,12 @@ section{
 @media screen and (max-width : 913px){
     .cont_title {
         font-size: 30px;
+    }
+
+}
+@media screen and (max-width : 431px){
+    .carousel .list .item .content {
+        margin-left: 30px;
     }
 
 }
