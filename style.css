@@ -444,6 +444,7 @@ header a {
 	width: 80%;
 	height: 80%;
 	object-fit: cover;
+    margin-top : 30px;
 }
 .text {
 	padding: 1.25rem;
@@ -837,6 +838,15 @@ section{
     }
 
 }
+
+@media screen and (max-width : 854px){
+    .img img {
+     
+        margin-top: 160px;
+    }
+}
+
+
 
 
 .custom-preloader {
