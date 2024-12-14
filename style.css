@@ -242,24 +242,24 @@ header a {
 }
 
 .carousel .list .item:nth-child(1) .title {
-    animation-delay: 1.2s;
+    animation-delay: 0.4s;
    
 }
 
 .carousel .list .item:nth-child(1) .topic {
-    animation-delay: 1.4s;
+    animation-delay: 0.8s;
 }
 
 .carousel .list .item:nth-child(1) .des {
-    animation-delay: 1.6s;
+    animation-delay: 1s;
   
 }
 
 .carousel .list .item:nth-child(1) .buttons {
-    animation-delay: 1.8s;
+    animation-delay: 1.4s;
 }
 
-.carousel.next  .list .item:nth-child(1) img {
+/* .carousel.next  .list .item:nth-child(1) img {
     width: 150px;
     height: 220px;
     position: absolute;
@@ -267,7 +267,7 @@ header a {
     bottom: 50px;
     border-radius: 20px;
     animation: showImage 0.5s linear 1 forwards;
-}
+} */
 
 @keyframes showImage {
     to {
@@ -279,7 +279,7 @@ header a {
     }
 }
 
-.carousel .next .thumbnail .item:nth-last-child(1) {
+.carousel.next .thumbnail .item:nth-last-child(1) {
     width: 0;
     overflow: hidden;
     animation: showThumbnail .5s linear 1 forwards;
@@ -318,7 +318,7 @@ header a {
 
 @keyframes outImage {
     to {
-        width: 150px;
+        width: 0px;
         height: 220px;
         border-radius: 20px;
         left: 50%;
