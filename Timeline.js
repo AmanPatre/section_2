@@ -19,7 +19,7 @@
         );
 
         var itemLength = selectors.item.length;
-        var activationOffset = 200; // Increase this value for earlier activation
+        var activationOffset = 200; 
 
         $(window).scroll(function () {
             var max, min;
