@@ -527,7 +527,7 @@ p {
 
 section {
     position: relative;
-    z-index: 1; /* Ensures content stays above the blurred background */
+    z-index: 1; 
 }
 
 .bg_image_5{
@@ -541,7 +541,7 @@ section {
     background-size: cover;
     background-attachment: fixed;
 }
-/* Shared properties for all background images */
+
 .img img{
     border-radius: 25px;
 }
@@ -906,13 +906,13 @@ section{
     }
   }
   
-  /* Slide-up Animation */
+ 
   .custom-preloader.slide-up {
     transform: translateY(-100%);
     opacity: 0;
   }
   
-  /* Hide Main Content Initially */
+  
   .main-content {
     display: none;
     padding: 20px;
@@ -920,30 +920,30 @@ section{
     text-align: center;
   }
   
-  /* Responsive Design */
   
-  /* Extra Large Screens (Desktops, >= 1200px) */
+  
+  
   @media screen and (min-width: 1200px) {
     .custom-text-container {
       font-size: 3rem;
     }
   }
   
-  /* Large Screens (Laptops, 992px to 1199px) */
+  
   @media screen and (max-width: 1199px) {
     .custom-text-container {
       font-size: 2.5rem;
     }
   }
   
-  /* Medium Screens (Tablets, 768px to 991px) */
+ 
   @media screen and (max-width: 991px) {
     .custom-text-container {
       font-size: 2rem;
     }
   }
   
-  /* Small Screens (Mobile Phones, 576px to 767px) */
+
   @media screen and (max-width: 767px) {
     .custom-text-container {
       font-size: 1.8rem;
@@ -951,12 +951,12 @@ section{
     }
   }
   
-  /* Extra Small Screens (Small Phones, <= 575px) */
+  
   @media screen and (max-width: 575px) {
     .custom-text-container {
       font-size: 1.5rem;
       padding: 5px;
-      color: #ffffff; /* Slightly lighter text color for visibility */
+      color: #ffffff; 
       
     }
   }
